@@ -27,7 +27,7 @@ class User(UserMixin, db.Model):
         return check_password_hash(self.password_hash, password)
 
 
-@login_manager.user_loader
+@login_manager.user_loader     # this decorator maps an id to a user
 def load_user(id):
     return User.query.get(int(id))
 
