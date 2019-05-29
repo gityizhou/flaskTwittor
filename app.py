@@ -1,4 +1,6 @@
-from flask import Flask
+from flask import Flask, render_template
+
+# render_template: flaks use jinja, server side rendering
 
 app = Flask(__name__)
 
@@ -9,9 +11,17 @@ app = Flask(__name__)
 # the return of the function becomes the response
 
 
-@app.route('/')
+@app.route('/index')
 def hello_world():
-    return 'Hello World!'
+    name = {'username': 'Joey'}
+    post = [
+        {'author': {'username': 'C'}, 'body': 'hello, my name is C'},
+        {'author': {'username': 'Java'}, 'body': 'Today is a good day'},
+        {'author': {'username': 'C#'}, 'body': 'I should review my CITS5505'},
+        {'author': {'username': 'Ruby'}, 'body': 'cheers'},
+        {'author': {'username': 'Python'}, 'body': 'Hello world!'},
+    ]
+    return render_template('index.html', name=name, post=post)
 
 
 if __name__ == '__main__':
