@@ -19810,21 +19810,21 @@
       <change afterPath="$PROJECT_DIR$/../java工程师学习图.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../java编程思想思维图.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../learnit" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/twittor/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/twittor/models.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../~$302319.docx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../~$ctionC.docx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../~$ts5502-Assignment3.docx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../微信.lnk" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../金山PDF独立版.lnk" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../金山文档.lnk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/manager.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/twittor/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/twittor/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twittor/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/twittor/config.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/twittor/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/twittor/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twittor/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/twittor/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/twittor/route.py" beforeDir="false" afterPath="$PROJECT_DIR$/twittor/route.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/twittor/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/twittor/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twittor/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/twittor/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twittor/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/twittor/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twittor/twittor.db" beforeDir="false" afterPath="$PROJECT_DIR$/twittor/twittor.db" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19837,8 +19837,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/twittor/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+            <state relative-caret-position="112">
+              <caret line="10" column="57" selection-start-line="10" selection-start-column="57" selection-end-line="10" selection-end-column="57" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
@@ -19849,10 +19849,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/twittor/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="25" column="62" selection-start-line="25" selection-start-column="62" selection-end-line="25" selection-end-column="62" />
+            <state relative-caret-position="532">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
               <folding>
-                <element signature="e#0#4#0" expanded="true" />
+                <element signature="e#0#29#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -19861,11 +19861,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/manager.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
+            <state relative-caret-position="152">
               <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-              <folding>
-                <element signature="e#0#4#0" expanded="true" />
-              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/twittor/templates/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" column="38" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -19880,10 +19886,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/twittor/templates/base.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="456">
+              <caret line="24" column="34" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/requirements.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
+              <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -19891,8 +19906,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/twittor/forms.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+            <state relative-caret-position="380">
+              <caret line="20" column="15" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
@@ -19903,8 +19918,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/twittor/route.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="38" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
+            <state relative-caret-position="190">
+              <caret line="10" column="47" lean-forward="true" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
               <folding>
                 <element signature="e#0#52#0" expanded="true" />
               </folding>
@@ -19912,11 +19927,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/twittor/config.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="190">
+              <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -19943,16 +19958,17 @@
         <option value="$PROJECT_DIR$/templates/base.html" />
         <option value="$PROJECT_DIR$/app.py" />
         <option value="$PROJECT_DIR$/twittor/form.py" />
-        <option value="$PROJECT_DIR$/twittor/templates/base.html" />
         <option value="$PROJECT_DIR$/twittor/templates/login.html" />
-        <option value="$PROJECT_DIR$/twittor/forms.py" />
-        <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/manager.py" />
         <option value="$PROJECT_DIR$/migrations/versions/432f83e293bc_create_user.py" />
-        <option value="$PROJECT_DIR$/twittor/route.py" />
-        <option value="$PROJECT_DIR$/twittor/__init__.py" />
-        <option value="$PROJECT_DIR$/twittor/models.py" />
+        <option value="$PROJECT_DIR$/twittor/forms.py" />
+        <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/twittor/config.py" />
+        <option value="$PROJECT_DIR$/twittor/models.py" />
+        <option value="$PROJECT_DIR$/twittor/templates/base.html" />
+        <option value="$PROJECT_DIR$/twittor/__init__.py" />
+        <option value="$PROJECT_DIR$/twittor/route.py" />
+        <option value="$PROJECT_DIR$/twittor/templates/index.html" />
       </list>
     </option>
   </component>
@@ -19980,6 +19996,12 @@
               <item name="twittor" type="b2602c69:ProjectViewProjectNode" />
               <item name="twittor" type="462c0819:PsiDirectoryNode" />
               <item name="twittor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="twittor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="twittor" type="462c0819:PsiDirectoryNode" />
+              <item name="twittor" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="twittor" type="b2602c69:ProjectViewProjectNode" />
@@ -20074,11 +20096,12 @@
       <workItem from="1559054595328" duration="5903000" />
       <workItem from="1559099741179" duration="138000" />
       <workItem from="1559100516913" duration="14742000" />
+      <workItem from="1559122954124" duration="4924000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21119000" />
+    <option name="totallyTimeSpent" value="26043000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -20091,23 +20114,24 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" x="1555" y="119" width="315" height="627" id="Project" order="0" type="FLOATING" visible="true" weight="0.17750533" />
+      <window_info active="true" content_ui="combo" x="1555" y="119" width="315" height="627" id="Project" order="0" type="FLOATING" visible="true" weight="0.17750533" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.329718" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.329718" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32924107" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32924107" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3286334" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.4370933" />
-      <window_info active="true" anchor="bottom" id="Python Console" order="12" visible="true" weight="0.3286334" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.3286334" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -20119,27 +20143,74 @@
     <option name="version" value="1" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/twittor$Flask__manager_py_.coverage" NAME="Flask (manager.py) Coverage Results" MODIFIED="1559110479882" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/twittor$Flask__manager_py_.coverage" NAME="Flask (manager.py) Coverage Results" MODIFIED="1559130625100" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app.py">
+    <entry file="file://$PROJECT_DIR$/app.py" />
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/flask_sqlalchemy/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" selection-start-line="13" selection-end-line="13" selection-end-column="20" />
+        <state relative-caret-position="192">
+          <caret line="715" column="13" selection-start-line="715" selection-start-column="13" selection-end-line="715" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/migrations/versions/432f83e293bc_create_user.py" />
+    <entry file="file://$PROJECT_DIR$/migrations/versions/2f119127d7f1_create_tweet.py" />
+    <entry file="file://$PROJECT_DIR$/manager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/twittor/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="15" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/twittor/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/twittor/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+        <state relative-caret-position="456">
+          <caret line="24" column="34" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/twittor/templates/index.html">
+    <entry file="file://$PROJECT_DIR$/twittor/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="1" selection-end-column="19" />
+        <state relative-caret-position="532">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/twittor/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="10" column="57" selection-start-line="10" selection-start-column="57" selection-end-line="10" selection-end-column="57" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -20150,82 +20221,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/twittor/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/flask_sqlalchemy/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="715" column="13" selection-start-line="715" selection-start-column="13" selection-end-line="715" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/migrations/versions/432f83e293bc_create_user.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/migrations/versions/2f119127d7f1_create_tweet.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-183" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/twittor/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/twittor/route.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="38" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
+        <state relative-caret-position="190">
+          <caret line="10" column="47" lean-forward="true" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
           <folding>
             <element signature="e#0#52#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/manager.py">
+    <entry file="file://$PROJECT_DIR$/twittor/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#4#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/twittor/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" column="62" selection-start-line="25" selection-start-column="62" selection-end-line="25" selection-end-column="62" />
-          <folding>
-            <element signature="e#0#4#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/twittor/config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="38">
+          <caret line="2" column="38" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
         </state>
       </provider>
     </entry>

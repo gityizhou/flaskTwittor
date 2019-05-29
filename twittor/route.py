@@ -1,9 +1,11 @@
-from flask import render_template, redirect, url_for
+from flask import render_template, redirect, url_for, request
+from flask_login import login_user, current_user, logout_user, login_required
 from twittor.forms import LoginForm
 from twittor.models import User, Tweet
 
+
+@login_required
 def index():
-    name = {'username': 'Joey'}
     post = [
         {'author': {'username': 'C'}, 'body': 'hello, my name is C'},
         {'author': {'username': 'Java'}, 'body': 'Today is a good day'},
@@ -11,14 +13,28 @@ def index():
         {'author': {'username': 'Ruby'}, 'body': 'cheers'},
         {'author': {'username': 'Python'}, 'body': 'Hello world!'},
     ]
-    return render_template('index.html', name=name, post=post)
+    return render_template('index.html', post=post)
 
 
 def login():
-    # set csrf -> False
-    form = LoginForm(csrf_enabled=False)
+    if current_user.is_authenticated:
+        return redirect(url_for('index'))
+    form = LoginForm()
     if form.validate_on_submit():
+        u = User.query.filter_by(username=form.username.data).first()
+        if u is None or not u.check_password(form.password.data):  # check the username and password
+            print('invalid username or password')
+            return redirect(url_for('login'))
+        login_user(u, remember=form.remember_me.data)
+        next_page = request.args.get('next')    # 导入了flask中的request，获取下一页的重定向
+        if next_page:
+            return redirect(next_page)
         # redirect 重定向
         # url_for: find the url which is bind with index function
         return redirect(url_for('index'))
     return render_template('login.html', title="Sign In", form=form)
+
+
+def logout():
+    logout_user()
+    return redirect(url_for('login'))
