@@ -8,4 +8,4 @@ class Config:
                                              '?check_same_thread=False')
 
     SQLALCHEMY_TRACK_MODIFICATIONS = False
-
+    SECRET_KEY = "zxc47POI"
