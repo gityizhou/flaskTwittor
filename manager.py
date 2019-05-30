@@ -9,12 +9,12 @@ app = create_app()
 manager = Manager()
 manager.add_command('db', MigrateCommand)  # add migrate command 'db'
 
-from twittor.models import User, Tweet
+from twittor.models import User, Tweet, followers
 
 
 @app.shell_context_processor
 def make_shell_context():
-    return {'db': db, 'User': User, 'Tweet': Tweet}
+    return {'db': db, 'User': User, 'Tweet': Tweet, 'followers': followers}
 
 
 @app.before_request    # 记录用户最后查看时间

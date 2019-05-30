@@ -72,7 +72,15 @@ def user(username):
         {'author': {'username':  u.username}, 'body': 'Today is a good day'},
 
     ]
+    if request.method == 'POST':
+        if request.form['request_button'] == 'Follow':
+            current_user.follow(u)
+            db.session.commit()
+        elif request.form['request_button'] == 'Unfollow':
+            current_user.unfollow(u)
+            db.session.commit()
     return render_template('user.html', title='Profile', post=post, user=u)
+
 
 
 def page_not_found(e):
