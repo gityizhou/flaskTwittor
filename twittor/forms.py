@@ -1,8 +1,8 @@
 from flask_wtf import FlaskForm
 # import wtfforms field
-from wtforms import StringField, PasswordField, BooleanField, SubmitField
+from wtforms import StringField, PasswordField, BooleanField, SubmitField, TextAreaField
 # import validator, Flask uses the WTForms module to validate Post Requests
-from wtforms.validators import DataRequired, Email, EqualTo, ValidationError
+from wtforms.validators import DataRequired, Email, EqualTo, ValidationError, Length
 from twittor.models import User
 # three parts of form
 # 1 the form class
@@ -41,3 +41,8 @@ class RegisterForm(FlaskForm):
         user = User.query.filter_by(email=email.data).first()
         if user is not None:
             raise ValidationError('existed email')
+
+
+class EditProfileForm(FlaskForm):
+    about_me = TextAreaField('About me', validators=[Length(min=0, max=120)])
+    submit = SubmitField('save')
